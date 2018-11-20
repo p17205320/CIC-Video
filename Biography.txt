@@ -1,0 +1,37 @@
+Watt, A. (2012). HTML Multi checkbox set - the correct way to group checkboxes. [online] wasted potential - Indie game development, old-school gaming, and general hackery. Available at: http://www.wastedpotential.com/html-multi-checkbox-set-the-correct-way-to-group-checkboxes/ [Accessed 30 Dec. 2015].
+
+Stackoverflow.com, (2015). Movie Database, storing multiple genres. [online] Available at: http://stackoverflow.com/questions/17520720/movie-database-storing-multiple-genres [Accessed 30 Dec. 2015].
+
+http://www.webformgenerator.eu/webformgenerator.php
+
+http://stackoverflow.com/questions/17520720/movie-database-storing-multiple-genres
+
+https://www.youtube.com/watch?v=ZHg-h7bZhbo
+
+http://php.net/manual/en/function.session-start.php
+
+http://php.net/manual/en/function.session-destroy.php
+
+http://php.net/manual/en/function.setcookie.php
+
+http://php.net/manual/en/book.mysqli.php
+
+http://php.net/manual/en/mysqli.construct.php
+
+http://www.w3schools.com/php/php_mysql_prepared_statements.asp
+
+http://php.net/manual/en/mysqli.query.php
+
+http://php.net/manual/en/mysqli.construct.php
+
+http://tablesorter.com/docs/
+
+http://www.w3schools.com/tags/att_table_border.asp
+
+http://www.webdeveloper.com/forum/showthread.php?252041-Auto-redirect-to-previous-page
+
+https://github.com/ircmaxell/password_compat
+
+http://codepen.io/philhoyt/pen/ujHzd
+
+http://iamceege.github.io/tooltipster/

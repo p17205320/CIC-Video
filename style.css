@@ -1,0 +1,315 @@
+@keyframes down {
+    
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes down {
+    
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+body {
+background: url("CSS%20Images/tasky_pattern.png");
+
+}
+
+#banner {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+	top: -90%;
+	width: 70%;
+    min-width: 750px;
+	Height: 10%;
+	background: linear-gradient(to bottom, #AD3838 0%,#5b0001 100%);
+	z-index: 2;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+
+#mainContent {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
+    width: 70%;
+    min-width: 750px;
+    height: 82%;
+    background: #999999;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#navi {
+    	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    top: -76%;
+	width: 70%;
+    min-width: 750px;
+    min-height: 32px;
+	Height: 4%;
+	background: #5b0001;
+	z-index: 4;
+    display:inline;
+}
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px !important;
+    margin: 0px ;
+} 
+
+
+.accountControls {
+  text-align: center;
+}
+
+
+input [type="text" i] {
+	
+	border-radius: 5px;
+    width: 93%;
+    line-height: 30px;
+}
+
+a {
+	color: blue
+}
+
+td:nth-child(1)  {
+    width: 1px 
+}
+
+td:nth-child(2) {
+    width: 100%
+}
+
+table {
+    border-spacing: 0px
+}
+
+#navi > ul > li > ul > form > input[type="text"] {
+    width: 91%;
+    line-height: 30px
+}
+
+#navi > ul > li > ul > form > input[type="password"] {
+    width: 91%;
+    line-height: 30px
+}
+
+#navi > ul > li > ul > form > input[type="submit"] {
+    width: 91%;
+    height: 44px
+}
+#navi  ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#navi h2 {
+    height: 100%;
+    display: block;
+    color: white;
+    line-height:35px;
+    cursor:default
+}
+
+#navi h4 {
+    height: 100%;
+    display: block;
+    color: white;
+    line-height:35px;
+    cursor:default
+}
+#navi  a {
+    display:block;
+	color:white;
+	text-decoration:none;
+	line-height:35px;
+}
+
+#navi ul li
+{
+	position:relative;
+	float:left;
+	margin:0px;
+    width: 150px;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#navi ul li:hover
+{
+	background:#380000
+}
+
+#navi ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#5b0001;
+	padding:0;
+
+}
+
+#navi ul ul li
+{
+	float:none;
+    width: 100%;
+}
+
+#navi ul ul a
+{
+	line-height:35px;
+	padding:0px 0px
+}
+
+#navi ul ul ul
+{
+	top:0;
+	left:-100%
+}
+
+
+#navi ul li:hover > ul {
+    display: block;
+    height: auto;
+    animation: down 0.3s
+
+}
+
+#navi p {
+    font-size: 15px; 
+    display: inline; 
+    color: white
+}
+
+#navi span {
+    font-size: 10px;
+    transform: translateY(10px)
+}
+
+#navi form {
+    color: white
+    }
+
+thead {
+    
+    display: none
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i] button {
+    height: 40px !important;
+}
+
+#floatright {
+    float: right;
+    height: 100%;        
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 95%;
+    width: 70%;
+    min-width: 750px;
+    Height: 3%;
+    background: #5b0001;
+    z-index: 6;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline;
+    text-align: center
+} 
+
+#Reviews table {
+    background-color: gainsboro;
+    width: 75%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tooltipster-default {
+	border: 1px solid black;
+	background: linear-gradient(to bottom, #AD3838 0%,#5b0001 100%);
+	color: #fff;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-default .tooltipster-content {
+	font-size: 14px;
+	line-height: 16px;
+    max-width: 450px;
+    width: auto
+}
+
+
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+	pointer-events: none;
+	width: auto;
+	overflow: visible;
+}
+.tooltipster-base .tooltipster-content {
+	overflow: hidden;
+}
+
+#button:active {
+    content: "Help Mode ON"
+}
